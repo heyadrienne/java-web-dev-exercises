@@ -14,8 +14,6 @@ public class Alice {
        System.out.println("Search term?");
        String searchTerm = input.nextLine().toLowerCase();
 
-
-
       Boolean result = aliceFirstSentenceLowerCase.contains(searchTerm);
 
       System.out.println("Your result is " + result + ".");
@@ -28,15 +26,6 @@ public class Alice {
        //remove the word and print the sentence again
        String sentenceRemoval = aliceFirstSentenceLowerCase.replace(searchTerm, "");
        System.out.println(sentenceRemoval);
-
-
-
-
-
-
-
-
-
 
    }
 }

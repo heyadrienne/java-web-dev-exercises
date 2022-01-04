@@ -20,6 +20,15 @@ public class Alice {
 
       System.out.println("Your result is " + result + ".");
 
+      //print index and length
+       int resultIndex = aliceFirstSentenceLowerCase.indexOf(searchTerm);
+       int resultLength = searchTerm.length();
+       System.out.println("The index of your result is " + resultIndex + " and the length is " + resultLength + ".");
+
+       //remove the word and print the sentence again
+       String sentenceRemoval = aliceFirstSentenceLowerCase.replace(searchTerm, "");
+       System.out.println(sentenceRemoval);
+
 
 
 

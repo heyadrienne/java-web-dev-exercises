@@ -13,9 +13,7 @@ public class Area {
             radius = scan.nextDouble();
             if (radius < 0) {
                 System.out.println("The area of a circle of a radius " + radius + " is " + Circle.getArea(radius));
-            } else {
-                System.out.println(radius + " is not a valid number.");
-            }
+            } else System.out.println(radius + " is not a valid number.");
         } else {
             System.out.println("Please enter a valid number.");
         }
